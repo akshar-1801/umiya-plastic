@@ -254,7 +254,7 @@ header .intro-text {
 }
 
 #features .container {
-  padding: 40px;
+  padding: 40px 0px;
 }
 
 #features i.fa {
@@ -612,5 +612,50 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+
+  #features .container {
+    padding: 40px 0px;
+    overflow-x: hidden;
+  }
+
+  #features i.fa {
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+    transition: all 0.5s;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    padding: 25px 0;
+    border-radius: 50%;
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  #features .container div {
+    /* padding: 0; */
+  }
+
+  #features .container div p {
+    font-size: 1.2rem;
+  }
+
+  .intro h1 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    /* margin-bottom: 10px; */
+  }
+
+  .intro p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 60px;
   }
 }
